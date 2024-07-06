@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AluraGeek</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/reset.css">
+  <!-- FONTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header">
+      <img src="/assets/logo.png" alt="Logo">
+      <h1>AluraGeek</h1>
+    </div>
+  </header>
+  <main id="main">
+    <div id="produtos">
+      <section class="container">
+        <h1 class="titulo-container">MEUS PRODUTOS:</h1>
+        <div class="container-products" data-card></div>
+      </section>
+      <section class="formulario">
+        <h1>ADICIONAR PRODUTOS:</h1>
+        <form class="form-container" data-formulario>
+          <input data-name type="text" name="name" placeholder="nome" minlength="3" required>
+          <span class="mensagem-erro"></span>
+          <input data-price type="text" name="price" placeholder="preço" minlength="4" required>
+          <span class="mensagem-erro"></span>
+          <input data-image type="text" name="image" placeholder="url-imagem" pattern="https://*" required>
+          <span class="mensagem-erro"></span>
+          <div class="btn-formulario-container">
+            <button type="submit" class="button-submit" id="button">Enviar</button>
+            <button type="reset" class="button-clean" id="button">Limpar</button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </main>
+  <footer class="footer-container">
+    <div class="footer-dev">
+      <span>Desenvolvido por <a href="https://www.linkedin.com/in/tehiagocredico">Thiago Credico</a> &copy;</span>
+      <span>ALURA LATAM - 2024</span>
+    </div>
+  </footer>
+  <script src="/js/mostrarGames.js" type="module"></script>
+  <script src="/js/valida.js"></script>
+</body>
+</html>

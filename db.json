@@ -1,0 +1,40 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "nome": "Mario Kart 8",
+      "preco": "300,00",
+      "imagem": "https://mario.nintendo.com/static/7b1437d3e385b05f8362202a87dfdb60/98c57/product-mk8-deluxe.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Super Mario Bros Wonder",
+      "preco": "399,00",
+      "imagem": "https://assets.nintendo.com/image/upload/q_auto/f_auto/ncom/software/switch/70010000068688/87e8aa5f1fdc950b88eae7d7c62ed185c8a6373c845090bbdb2e2cf039b38da1"
+    },
+    {
+      "id": 3,
+      "nome": "Luigis Mansion 2 HD",
+      "preco": "299,00",
+      "imagem": "https://assets.nintendo.com/image/upload/q_auto/f_auto/ncom/software/switch/70010000072954/00eac347ef3029bfe156b030be64c0274cd5dea1df4df57b12855c823ef7deb4"
+    },
+    {
+      "nome": "Paper Mario",
+      "preco": "525,00",
+      "imagem": "https://assets.nintendo.com/image/upload/q_auto/f_auto/ncom/software/switch/70010000072957/fdd5d8ca46d7ea4e45397ae560e807742de2d7d744570297ddbabf69d6d23f33",
+      "id": 4
+    },
+    {
+      "nome": "Mario and Luigi Brothership",
+      "preco": "331,00",
+      "imagem": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000084613/9afc95d7bb55198b983e6942649af01932c45df112e8b8842e0578143dcdeaeb",
+      "id": 5
+    },
+    {
+      "nome": "Mario Party Superstars",
+      "preco": "289,00",
+      "imagem": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000042934/ae43ce2e25afbc4c069c2920075ead01a84f02dfe55b87876268409f6ccc0304",
+      "id": 6
+    }
+  ]
+}
